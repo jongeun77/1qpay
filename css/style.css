@@ -1,4 +1,7 @@
-/* colors */
+
+@charset "utf-8";
+
+/* root colors */
 :root {
     --accent_color: #008264;
     --primary_text: #333333;
@@ -6,8 +9,7 @@
     --color-mid-gray: #dbdbdb;
     --color-white: #ffffff;
 }
-
-body {
+html, body {
     font-family: "Spoqa Han Sans Neo", "sans-serif";
     color: var(--primary_text);
     line-height: 1.5;
@@ -24,8 +26,7 @@ body {
 .wrap {
     padding: 0 20px;
 }
-header {
-}
+/* header */
 header h1 {
     font-size: 16px;
     color: var(--accent_color);
@@ -38,18 +39,14 @@ header p {
     font-weight: 700;
     line-height: 34px;
 }
+/* section */
 section {
     padding: 20px 0 40px;
-}
-section .wrap {
-}
-section .wrap .editor {
 }
 section .wrap .editor img {
     width: auto;
     max-width: 100%;
 }
-
 section .detail_box {
     width: 100%;
     height: auto;
@@ -57,7 +54,6 @@ section .detail_box {
     text-align: right;
     padding: 0 24px 0 20px;
 }
-
 section .detail_view {
     font-size: 12px;
     color: var(--accent_color);
@@ -65,7 +61,6 @@ section .detail_view {
     position: relative;
     padding-right: 15px;
 }
-
 section .detail_view:before {
     content: "";
     display: block;
@@ -78,8 +73,6 @@ section .detail_view:before {
 }
 section .list {
     margin-top: 40px;
-}
-section .list {
 }
 section .list h2 {
     font-size: 16px;
@@ -104,7 +97,6 @@ section .list ul li a {
     display: inline-block;
     padding: 20px 40px 20px 20px;
 }
-
 section .list ul li a > p {
     width: 100%;
     height: auto;
@@ -117,7 +109,6 @@ section .list ul li a > p {
     word-wrap: break-word;
     line-height: 18px;
 }
-
 section .list ul li a:after {
     content: "";
     position: absolute;
@@ -133,6 +124,7 @@ section .list ul li a:after {
     transform: translateY(-50%);
     background: url(../images/icon_next.png) no-repeat center/contain;
 }
+/* 더보기 버튼 */
 section .list .view_btn {
     margin-top: 20px;
 }
@@ -162,6 +154,7 @@ section .list .view_btn button {
     margin: 0 auto;
     gap: 4px;
 }
+/* 더보기 버튼 비활성화 */
 section .list .view_btn button.disable {
     background-color: var(--color-mid-gray);
 }
@@ -173,17 +166,14 @@ section .banner_btm {
     padding: 0 20px;
     margin-top: 40px;
 }
-section .banner_btm a {
-}
 section .banner_btm a img {
     width: auto;
     max-width: 100%;
 }
+/* footer */
 footer {
     width: auto;
     height: auto;
-}
-footer .wrap {
 }
 footer .wrap a:first-of-type {
     font-size: 12px;
@@ -212,7 +202,7 @@ footer .wrap a:last-of-type {
     font-weight: 400;
     color: var(--secondary_text);
 }
-/* sub_01 */
+/* sub_01 : 컨텐츠 페이지 */
 .container.sub_01 header p {
     font-size: 20px;
     margin-bottom: 8px;
