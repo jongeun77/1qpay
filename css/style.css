@@ -160,6 +160,7 @@ section .list .view_btn button {
     -ms-flex-align: center;
     align-items: center;
     margin: 0 auto;
+    gap: 4px;
 }
 section .list .view_btn button.disable {
     background-color: var(--color-mid-gray);
