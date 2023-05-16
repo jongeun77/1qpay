@@ -65,7 +65,7 @@ section .detail_view:before {
     content: "";
     display: block;
     position: absolute;
-    top: 1.3px;
+    top: 1.5px;
     right: 0;
     background: url(../images/Vector.png) no-repeat center/contain;
     width: 8px;
@@ -187,7 +187,7 @@ footer .wrap a:first-of-type:before {
     height: 8px;
     background: url(../images/icon_link.png) no-repeat center/contain;
     position: absolute;
-    bottom: 2px;
+    bottom: 3.4px;
     right: -12px;
 }
 footer .wrap p {
@@ -247,3 +247,4 @@ footer .wrap a:last-of-type {
     width: 11px;
     height: 11px;
 }
+/* 원큐페이 메인, 서브 퍼블리싱 : end */
